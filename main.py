@@ -6,7 +6,7 @@ import logging
 
 we = ccxt.wavesexchange({'apiKey': os.getenv('PUBLIC_API_KEY')})
 we.load_markets()
-price = we.markets['BTC-WXG/USDC-WXG']['info']['24h_close']
+price = we.markets['BTC-WXG/USDT-WXG']['info']['24h_close']
 load_dotenv()
 bot = Bot(token=os.getenv('TOKEN'))
 dp = Dispatcher(bot=bot)
@@ -66,6 +66,7 @@ async def double_exchange(callback_query: types.CallbackQuery):
         await bot.send_message(chat_id=callback_query.from_user.id, text="Обмен BTC на USDT пока не реализован")
     elif callback_query.data == 'USDT-BTC':
         await bot.send_message(chat_id=callback_query.from_user.id, text="Обмен USDT на BTC пока не реализован")
+
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
