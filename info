@@ -1,0 +1,25 @@
+Информация взята с сайта: https://coinmarketcap-proxy.wvservices.exchange/tickers
+
+{"symbol":"BTC-WXG/USDT-WXG",
+"amountAssetID":"8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS",
+"amountAssetName":"WBTC",
+"amountAssetDecimals":8,
+"amountAssetTotalSupply":"1088.01736758",
+"amountAssetMaxSupply":"1088.01736758",
+"amountAssetCirculatingSupply":"1088.00916578",
+"priceAssetID":"34N9YcEETLWn93qYQ64EsP1x89tSruJU44RrEMSXXEPJ",
+"priceAssetName":"USDT",
+"priceAssetDecimals":6,
+"priceAssetTotalSupply":"23871320.718703",
+"priceAssetMaxSupply":"infinite",
+"priceAssetCirculatingSupply":"23871273.518703",
+"24h_open":"0",
+"24h_high":"0",
+"24h_low":"0",
+"24h_close":"0",
+"24h_vwap":"0",
+"24h_volume":"0.00000000",
+"24h_priceVolume":"0.000000",
+"timestamp":1702252768340,
+"last_price":"0"}
+
