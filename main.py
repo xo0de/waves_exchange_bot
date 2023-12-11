@@ -51,7 +51,7 @@ async def get_price(message: types.Message):
 
 # Обработчик команды /exchange
 @dp.message_handler(commands=['exchange'])
-async def get_price(message: types.Message):
+async def exchange(message: types.Message):
     await bot.send_message(chat_id=message.from_user.id, text="Введите сумму, которую Вы хотите обменять:")
 
 
